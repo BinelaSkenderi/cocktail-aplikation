@@ -1,2 +1,1 @@
-# cocktail-aplikation
-react övning
+#

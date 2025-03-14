@@ -1,0 +1,9 @@
+search by Id: https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007
+
+random: https://www.thecocktaildb.com/api/json/v1/1/random.php
+
+list of category: https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list
+
+that selected category: https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Ordinary_Drink
+
+Search for a drink by ID: https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007

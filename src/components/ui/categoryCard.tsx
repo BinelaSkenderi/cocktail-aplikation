@@ -27,8 +27,8 @@ const DrinkCard: React.FC<DrinkCardProps> = ({ name, link, id }) => {
     >
       <div
         style={{
-        //   width: "100%",
-        //   height: "100%",
+          //   width: "100%",
+          //   height: "100%",
         }}
       >
         <img
@@ -42,8 +42,8 @@ const DrinkCard: React.FC<DrinkCardProps> = ({ name, link, id }) => {
       </div>
 
       <div style={{ padding: "8px" }}>
-        <h4 style={{margin: "0"}}>{name}</h4>
-        <p style={{margin: "0"}}>ID: {id}</p>
+        <h4 style={{ margin: "0" }}>{name}</h4>
+        <p style={{ margin: "0" }}>ID: {id}</p>
         <button onClick={goVisit}>Details</button> {/* standard button element */}
       </div>
     </div>

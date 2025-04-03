@@ -1,6 +1,8 @@
+
 import { useParams } from "react-router-dom"; // Correct import
 import useFetchData from "../../utils/hooks/useFetchData";
 import DrinkCard from "../ui/categoryCard";
+import Category from "./category";
 
 interface Drink {
   idDrink: string;
@@ -19,6 +21,7 @@ function SingleCategory() {
       ? params.Category.replace("_or_", "_/ ")
       : params.Category}`
   );
+  
 
   // Formaterar kategorinamnet för att visa det korrekt
   const formattedCategory = params.Category?.replace(/_or_/g, "/").split("_").join(" ");

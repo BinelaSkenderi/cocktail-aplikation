@@ -6,20 +6,21 @@ import Home from "./components/page/home";
 import AboutUs from "./components/page/aboutUs";
 import Category from "./components/page/category";
 import SingleCategory from "./components/page/singleCategory";
-import DetailsCategory from "./components/page/detailscategory";
+import DetailsCategory from "./components/page/detailsCategory";
 
 function App() {
   return (
     <BrowserRouter>
       <Navigation />
-      <main style={{ height: "100vh" }}>
+      <main style={{ minHeight: "100vh" }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="AboutUs" element={<AboutUs />} />
           <Route path="*" element={<p>Not found</p>} />
           <Route path="/Category" element={<Category />} />
           <Route path="/Category/:Category" element={<SingleCategory />} />
-          <Route path="/drink/:id" element={<DetailsCategory />} />
+          <Route path="/drinks/:id" element={<DetailsCategory />} />
+         
         </Routes>
       </main>
       <Footer />
